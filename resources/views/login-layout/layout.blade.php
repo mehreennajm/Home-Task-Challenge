@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+     <!-- Favicon icon -->
+     <link rel="icon" href="{{asset('assets/images/favicon.ico')}}" type="image/x-icon">
     <title>Pigment Product Management System |  @yield('title')</title>
     <!-- Favicon icon -->
      <link rel="icon" href="{{asset('assets/images/favicon.ico')}}" type="image/x-icon">

@@ -51,7 +51,7 @@ class SuppliersController extends Controller
         if($request->has('company_logo')) {
             $file = $request->file('company_logo') ;
             $fileName = time().$file->getClientOriginalName() ;
-            $destinationPath = public_path().'/uploads/suppliers' ;
+            $destinationPath = public_path().'/uploads/suppliers/' ;
             $file->move($destinationPath,$fileName);
         }
 

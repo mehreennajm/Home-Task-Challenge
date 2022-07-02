@@ -10,7 +10,7 @@
                     <div class="card-body">
                         <!-- form start -->
                         <form method="post" id="suppliersData" enctype="multipart/form-data">
-                            {{csrf_field()}}
+                            @csrf
                         <div class="form-group">
                             <input type="hidden" id="id" name="id" value="">
                             <label for="type">Supplier Name</label>

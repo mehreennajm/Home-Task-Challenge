@@ -48,7 +48,7 @@ class ProductController extends Controller
             'product_desc' => 'required',
             'supplier_id' => 'required',
             'product_type_id' => 'required',
-            'product_image' => 'image|mimes:jpeg,png,jpg,gif,svg|max:5120',
+            'product_image' => 'image|mimes:jpeg,png,jpg,gif,svg,webp|max:5120',
 
         ]);
 

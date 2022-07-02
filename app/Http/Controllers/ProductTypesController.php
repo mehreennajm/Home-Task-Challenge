@@ -16,7 +16,7 @@ class ProductTypesController extends Controller
 
     public function get_types(Request $request)
     {
-        $types = ProductType::latest()->paginate(20);
+        $types = ProductType::orderby('id')->paginate(20);
         return $request->ajax() ?
             response()->json($types, Response::HTTP_OK)
             : abort(404);
