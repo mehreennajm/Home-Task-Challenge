@@ -18,7 +18,11 @@ This is a simple laravel challenge project based on custom made Product Informat
 
 ◦ Generate Application Key Using php artisan key:generate command
 
-◦ Run the database migrations php artisan migrate command
+◦ if you want to access without migration upload the pim_db.sql and use these credintials to sign-in to dashboard 
+
+◦ Login Credintials email: admin@gmail.com  password:admin!@#
+
+◦ if you don't want to upload the db and instead you want to migrate - Run the database migrations php artisan migrate command
 
 ◦ Your Ready to go run php artisan serve
 
